@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color:white;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    color:white;
+}
+
+.container {
+    padding: 30px 100px;
+}
+
+.heading {
+    font-size: 40px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    color:white;
+}

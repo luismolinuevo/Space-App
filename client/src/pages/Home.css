@@ -1,0 +1,28 @@
+.home {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    height: 100vh;
+    /* background: url("../assets/david-monje-3THn0EN_Ydo-unsplash.jpg"); */
+    background-image: url("../assets/nasa-Yj1M5riCKk4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center/center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.hero h1 {
+    padding-top: 0px;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+}
+
+.hero {
+    padding-top: 160px;
+    text-align: center;
+}
+
