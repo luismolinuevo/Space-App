@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData, Link } from "react-router-dom";
-import { Box, Center, Image, Flex } from '@chakra-ui/react';
+import { Box, Center, Image} from '@chakra-ui/react';
+import Images from '../components/Extra/Images';
 
 
 export default function Mars() {
@@ -11,24 +12,21 @@ export default function Mars() {
     <div className='mars'>
       <div className='container'>
       {dailyMarsImageData ? (
-        <div className='roverimages'>
-          {
-            dailyMarsImageData.map(imagedata => (
-              <Center>
-                  <Box
-                  width="800px" 
-                  borderWidth='1px' 
-                  borderRadius='lg'
-                  overflow='hidden' 
-                  mb="40px"
-                  >
-                    <Image width="800px" height="600px" src={imagedata.img_src}/>
-                  </Box>
-              </Center>
-
-            ))
-          }
+        <div>
+          {/* <Center> */}
+              {
+                
+                dailyMarsImageData.map(imagedata => (
+                  // <Center>
+                    <Images img_src={imagedata.img_src}/>
+                  // </Center>
+                    
+                ))
+                
+              }
+              {/* </Center> */}
         </div>
+          
         ) : (
           <div>This is the mars page</div>
         )}

@@ -65,3 +65,9 @@ function App() {
 }
 
 export default App
+
+//todo 
+//make it look better
+//make styled image component and use for the rover and nasi images`
+//try and make search bar on top.(Extra)
+//make split things to videos
